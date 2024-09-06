@@ -88,7 +88,7 @@
 
     <div class="container">
         <div class="background-xv">XV</div>
-        <h1 class="name">[Nombre de la Cumpleañera]</h1>
+        <h1 class="name">Alondra</h1>
 
         <div class="details">
             <p><strong>Fecha:</strong> 5 de octubre de 2024</p>
@@ -98,7 +98,7 @@
             
             <!-- Mapa -->
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.1273150793734!2d-100.11433288469714!3d25.77745738389586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86628771f6d493b3%3A0xe4c21b74a3fd54c2!2sFrancisco%20I.%20Madero%20908%2C%20Ejido%20El%20Mezquital%2C%20Cdad.%20Apodaca%2C%20N.L.!5e0!3m2!1ses-419!2smx!4v1693961457071!5m2!1ses-419!2smx" 
+                <iframe src="https://maps.app.goo.gl/w93Grp878YmwFcT27?g_st=ac" 
                     style="border:0;" 
                     allowfullscreen="" 
                     loading="lazy"></iframe>
@@ -121,7 +121,7 @@
             const timeDiff = eventDate - now;
 
             if (timeDiff <= 0) {
-                document.getElementById('countdown').innerHTML = "¡Es el gran día!";
+                document.getElementById('countdown').innerHTML = "Se acerca el gran día";
                 return;
             }
 
